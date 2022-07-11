@@ -1,0 +1,236 @@
+body{
+  background-color: lightgreen;
+  margin: 0;
+  text-align: center;
+  font-family: "Gentium Plus", Helvetica, verdana, sans-serif;
+  font-size: 1.1rem;
+  color: #40514E;
+}
+
+div{
+  /* background-color: #889EAF; */
+  margin: 0;
+  /* height: 200px;
+  width: 200px; */
+}
+
+h1{
+  font-size: 5.65rem;
+  margin-top: 50px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  /* line-height: 2; */
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+a {
+  display: inline-block;
+  color: #11999E;
+  margin-top: 1rem;
+  margin-bottom: .1rem;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #B1D9DE;
+}
+
+hr{
+  clear: left;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-top: dotted .5rem;
+  width: 7%;
+  color: #DAE6E6;
+}
+
+.top-container{
+  background-color: #EAF6F6;/*#cff1f7;*//*#889EAF;*/
+  position: relative;
+  padding-top: 90px;
+}
+
+.middle-container{
+  background-color: #FEFEFA;/*lavender;*/
+}
+
+.bottom-container{
+  background-color: #66BFBF;/*lightyellow;*/
+  padding-bottom: 0.5rem;
+}
+
+.skills{
+  margin-bottom: 4rem;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 15%;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 20%;
+  /* left: 200px;
+  top: 0; */
+}
+
+.python{
+  /* margin-right: 20px; */
+  padding-right: 1.4rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.lemon{
+  width: 9.5rem;
+  height: 9.5rem;
+  /* margin-left: 0px; */
+  padding-top: 1.3rem;
+}
+
+.plus{
+  /* margin-left: 20px; */
+  /* display: inline-block; */
+  padding-top: 1.2rem;
+  height: 9.5rem;
+  width: 9.5rem;
+}
+
+/* .juice{
+  height: 15rem;
+  width: 13.5rem;
+
+} */
+
+.juice{
+  height: 11rem;
+  width: 9.5rem;
+  float: right;
+  margin-right: 1rem;
+
+}
+
+.programmer{
+  font-family: "Montserrat", sans-serif;
+  margin-top: 27px;
+}
+
+.footer-link{
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.profile{
+  width: 30%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-row-python{
+  width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+
+.skill-row-juice{
+  width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.profile-img{
+  margin-top: 2rem;
+}
+
+.skill-row-web{
+  width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  text-align: left;
+  line-height: 1.5rem;
+  /* margin-bottom: 1.5rem; */
+}
+
+.web{
+  width: 9rem;
+  height: 9rem;
+  float: left;
+  margin-right: 1.5rem;
+  /* margin-top: 1.5rem; */
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: .8rem;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-message{
+  width: 40%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
